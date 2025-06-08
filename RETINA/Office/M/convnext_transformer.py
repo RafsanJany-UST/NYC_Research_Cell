@@ -405,44 +405,47 @@ class ConvNeXt_Transformer(nn.Module):
         return out
 
 
-convnext_transformer = ConvNeXt_Transformer()
+
+if __name__ == "__main__":
+    
+    convnext_transformer = ConvNeXt_Transformer()
 
 
-# ------------------------ Training ------------------------
-save_path = "convnext_transformer.pth"
-log_dir = "./logs/convnext_transformer"
+    # ------------------------ Training ------------------------
+    save_path = "convnext_transformer.pth"
+    log_dir = "./logs/convnext_transformer"
 
-train_model(
-    model=convnext_transformer,
-    train_loader=train_loader,
-    val_loader=val_loader,
-    num_epochs=GLOBAL_EPOCH,
-    lr=GLOBAL_Lr,
-    wd=1e-4,
-    log_dir=log_dir,
-    save_path=save_path,
-    patience=5,                 # Early stopping patience
-    use_scheduler=True,         # Enable ReduceLROnPlateau
-    use_mixed_precision=True    # AMP for faster training
-)
+    train_model(
+        model=convnext_transformer,
+        train_loader=train_loader,
+        val_loader=val_loader,
+        num_epochs=GLOBAL_EPOCH,
+        lr=GLOBAL_Lr,
+        wd=1e-4,
+        log_dir=log_dir,
+        save_path=save_path,
+        patience=5,                 # Early stopping patience
+        use_scheduler=True,         # Enable ReduceLROnPlateau
+        use_mixed_precision=True    # AMP for faster training
+    )
 
-# ------------------------ Load the Best Model ------------------------
+    # ------------------------ Load the Best Model ------------------------
 
-convnext_transformer.load_state_dict(torch.load(save_path))  # Load the best checkpoint before testing
+    convnext_transformer.load_state_dict(torch.load(save_path))  # Load the best checkpoint before testing
 
-# ------------------------ Evaluation ------------------------
-evaluate_model(
-    model=convnext_transformer,
-    test_loader=test_loader,
-    criterion=nn.BCEWithLogitsLoss(),  # Important: BCEWithLogitsLoss
-    model_name="convnext_transformer",
-    output_file="evaluation_results.txt",  # File to save evaluation text results
-    save_dir="./results/efficientnet"      # Folder where ROC, CM, and text results will be saved
-)
+    # ------------------------ Evaluation ------------------------
+    evaluate_model(
+        model=convnext_transformer,
+        test_loader=test_loader,
+        criterion=nn.BCEWithLogitsLoss(),  # Important: BCEWithLogitsLoss
+        model_name="convnext_transformer",
+        output_file="evaluation_results.txt",  # File to save evaluation text results
+        save_dir="./results/efficientnet"      # Folder where ROC, CM, and text results will be saved
+    )
 
-# ------------------------ Cleanup ------------------------
-import gc
-del convnext_transformer
-torch.cuda.empty_cache()  # Clear the GPU memory
-gc.collect()              # Garbage collection
+    # ------------------------ Cleanup ------------------------
+    import gc
+    del convnext_transformer
+    torch.cuda.empty_cache()  # Clear the GPU memory
+    gc.collect()              # Garbage collection
 

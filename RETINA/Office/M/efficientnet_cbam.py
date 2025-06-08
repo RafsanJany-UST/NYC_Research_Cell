@@ -446,43 +446,47 @@ class EfficientNet_CBAM(nn.Module):
         return x
 
 
-efficientnet_cbam = EfficientNet_CBAM()
+if __name__ == "__main__":
+    
+    efficientnet_cbam = EfficientNet_CBAM()
 
 
-# ------------------------ Training ------------------------
-save_path = "efficientnet_cbam.pth"
-log_dir = "./logs/efficientnet_cbam"
+    # ------------------------ Training ------------------------
+    save_path = "efficientnet_cbam.pth"
+    log_dir = "./logs/efficientnet_cbam"
 
-train_model(
-    model=efficientnet_cbam,
-    train_loader=train_loader,
-    val_loader=val_loader,
-    num_epochs=GLOBAL_EPOCH,
-    lr=GLOBAL_Lr,
-    wd=1e-4,
-    log_dir=log_dir,
-    save_path=save_path,
-    patience=5,                 # Early stopping patience
-    use_scheduler=True,         # Enable ReduceLROnPlateau
-    use_mixed_precision=True    # AMP for faster training
-)
+    train_model(
+        model=efficientnet_cbam,
+        train_loader=train_loader,
+        val_loader=val_loader,
+        num_epochs=GLOBAL_EPOCH,
+        lr=GLOBAL_Lr,
+        wd=1e-4,
+        log_dir=log_dir,
+        save_path=save_path,
+        patience=5,                 # Early stopping patience
+        use_scheduler=True,         # Enable ReduceLROnPlateau
+        use_mixed_precision=True    # AMP for faster training
+    )
 
-# ------------------------ Load the Best Model ------------------------
-efficientnet_cbam.load_state_dict(torch.load(save_path))  # Load the best checkpoint before testing
 
-# ------------------------ Evaluation ------------------------
-evaluate_model(
-    model=efficientnet,
-    test_loader=test_loader,
-    criterion=nn.BCEWithLogitsLoss(),  # Important: BCEWithLogitsLoss
-    model_name="efficientnet_cbam",
-    output_file="evaluation_results.txt",  # File to save evaluation text results
-    save_dir="./results/efficientnet"      # Folder where ROC, CM, and text results will be saved
-)
 
-# ------------------------ Cleanup ------------------------
-import gc
-del efficientnet_cbam
-torch.cuda.empty_cache()  # Clear the GPU memory
-gc.collect()              # Garbage collection
+    # ------------------------ Load the Best Model ------------------------
+    efficientnet_cbam.load_state_dict(torch.load(save_path))  # Load the best checkpoint before testing
+
+    # ------------------------ Evaluation ------------------------
+    evaluate_model(
+        model=efficientnet_cbam,
+        test_loader=test_loader,
+        criterion=nn.BCEWithLogitsLoss(),  # Important: BCEWithLogitsLoss
+        model_name="efficientnet_cbam",
+        output_file="evaluation_results.txt",  # File to save evaluation text results
+        save_dir="./results/efficientnet"      # Folder where ROC, CM, and text results will be saved
+    )
+
+    # ------------------------ Cleanup ------------------------
+    import gc
+    del efficientnet_cbam
+    torch.cuda.empty_cache()  # Clear the GPU memory
+    gc.collect()              # Garbage collection
 

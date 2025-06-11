@@ -1,16 +1,16 @@
 Model: efficientnet_cbam_final
-Test Loss: 0.4605
-Test Accuracy: 0.8053
+Test Loss: 0.4613
+Test Accuracy: 0.8023
 Classification Report:
               precision    recall  f1-score   support
 
-    Diabetic       0.78      0.84      0.81       837
-      Normal       0.83      0.77      0.80       837
+    Diabetic       0.85      0.73      0.79       837
+      Normal       0.77      0.87      0.82       837
 
-    accuracy                           0.81      1674
-   macro avg       0.81      0.81      0.81      1674
-weighted avg       0.81      0.81      0.81      1674
+    accuracy                           0.80      1674
+   macro avg       0.81      0.80      0.80      1674
+weighted avg       0.81      0.80      0.80      1674
 
 Confusion Matrix:
-[[704 133]
- [193 644]]
+[[613 224]
+ [107 730]]

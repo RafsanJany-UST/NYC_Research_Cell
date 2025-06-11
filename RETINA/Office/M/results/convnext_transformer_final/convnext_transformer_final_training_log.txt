@@ -1,0 +1,57 @@
+
+Epoch 1/256
+Train Loss: 0.7002 | Train Acc: 0.5337 | Val Loss: 0.7173 | Val Acc: 0.5081
+Validation loss improved. Model saved.
+
+Epoch 2/256
+Train Loss: 0.6966 | Train Acc: 0.5395 | Val Loss: 0.6829 | Val Acc: 0.5852
+Validation loss improved. Model saved.
+
+Epoch 3/256
+Train Loss: 0.6880 | Train Acc: 0.5545 | Val Loss: 0.6898 | Val Acc: 0.5015
+
+Epoch 4/256
+Train Loss: 0.6720 | Train Acc: 0.5860 | Val Loss: 0.6252 | Val Acc: 0.6455
+Validation loss improved. Model saved.
+
+Epoch 5/256
+Train Loss: 0.6279 | Train Acc: 0.6490 | Val Loss: 0.6171 | Val Acc: 0.6533
+Validation loss improved. Model saved.
+
+Epoch 6/256
+Train Loss: 0.6090 | Train Acc: 0.6612 | Val Loss: 0.5884 | Val Acc: 0.6533
+Validation loss improved. Model saved.
+
+Epoch 7/256
+Train Loss: 0.5976 | Train Acc: 0.6603 | Val Loss: 0.6108 | Val Acc: 0.6390
+
+Epoch 8/256
+Train Loss: 0.5934 | Train Acc: 0.6681 | Val Loss: 0.5666 | Val Acc: 0.6862
+Validation loss improved. Model saved.
+
+Epoch 9/256
+Train Loss: 0.5810 | Train Acc: 0.6872 | Val Loss: 0.5709 | Val Acc: 0.6970
+
+Epoch 10/256
+Train Loss: 0.5803 | Train Acc: 0.6943 | Val Loss: 0.5651 | Val Acc: 0.6999
+Validation loss improved. Model saved.
+
+Epoch 11/256
+Train Loss: 0.5746 | Train Acc: 0.6957 | Val Loss: 0.5642 | Val Acc: 0.6964
+Validation loss improved. Model saved.
+
+Epoch 12/256
+Train Loss: 0.6038 | Train Acc: 0.6749 | Val Loss: 0.5834 | Val Acc: 0.6671
+
+Epoch 13/256
+Train Loss: 0.5854 | Train Acc: 0.6866 | Val Loss: 0.6072 | Val Acc: 0.6455
+
+Epoch 14/256
+Train Loss: 0.5912 | Train Acc: 0.6783 | Val Loss: 0.5723 | Val Acc: 0.6922
+
+Epoch 15/256
+Train Loss: 0.5919 | Train Acc: 0.6854 | Val Loss: 0.6116 | Val Acc: 0.6384
+
+Epoch 16/256
+Train Loss: 0.5862 | Train Acc: 0.6813 | Val Loss: 0.5821 | Val Acc: 0.6880
+Early stopping triggered.

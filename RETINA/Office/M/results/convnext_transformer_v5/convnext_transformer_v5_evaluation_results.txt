@@ -1,0 +1,16 @@
+Model: convnext_transformer_v5
+Test Loss: 0.5561
+Test Accuracy: 0.7097
+Classification Report:
+              precision    recall  f1-score   support
+
+    Diabetic       0.71      0.72      0.71       837
+      Normal       0.71      0.70      0.71       837
+
+    accuracy                           0.71      1674
+   macro avg       0.71      0.71      0.71      1674
+weighted avg       0.71      0.71      0.71      1674
+
+Confusion Matrix:
+[[600 237]
+ [249 588]]

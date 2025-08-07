@@ -1,0 +1,42 @@
+Experiment Log - 2025-08-07_16-17-45
+--------------------------------------------------
+Epoch 01 | Train Loss: 5.7405 | Val Loss: 3.4807 | LR: 0.001000 | Time: 1180.40s
+Saved best model at epoch 1 → logs/model_best.pt
+Epoch 02 | Train Loss: 3.5559 | Val Loss: 4.4804 | LR: 0.001000 | Time: 1170.58s
+Saved best model at epoch 2 → logs/model_best.pt
+Epoch 03 | Train Loss: 3.4347 | Val Loss: 3.5277 | LR: 0.001000 | Time: 1166.86s
+Saved best model at epoch 3 → logs/model_best.pt
+Epoch 04 | Train Loss: 3.3427 | Val Loss: 3.6247 | LR: 0.000500 | Time: 1168.26s
+Saved best model at epoch 4 → logs/model_best.pt
+Epoch 05 | Train Loss: 3.2136 | Val Loss: 3.3824 | LR: 0.000500 | Time: 1166.59s
+Saved best model at epoch 5 → logs/model_best.pt
+Epoch 06 | Train Loss: 3.1765 | Val Loss: 3.3550 | LR: 0.000500 | Time: 1169.96s
+Saved best model at epoch 6 → logs/model_best.pt
+Epoch 07 | Train Loss: 3.1492 | Val Loss: 3.4897 | LR: 0.000500 | Time: 1163.95s
+Saved best model at epoch 7 → logs/model_best.pt
+Epoch 08 | Train Loss: 3.1264 | Val Loss: 3.3111 | LR: 0.000500 | Time: 1167.95s
+Saved best model at epoch 8 → logs/model_best.pt
+Epoch 09 | Train Loss: 3.1070 | Val Loss: 3.4852 | LR: 0.000500 | Time: 1163.38s
+Saved best model at epoch 9 → logs/model_best.pt
+Epoch 10 | Train Loss: 3.0907 | Val Loss: 3.4864 | LR: 0.000500 | Time: 1162.82s
+Saved best model at epoch 10 → logs/model_best.pt
+Epoch 11 | Train Loss: 3.0744 | Val Loss: 3.4212 | LR: 0.000250 | Time: 1168.35s
+Saved best model at epoch 11 → logs/model_best.pt
+Epoch 12 | Train Loss: 3.0214 | Val Loss: 3.4865 | LR: 0.000250 | Time: 1166.24s
+Saved best model at epoch 12 → logs/model_best.pt
+Epoch 13 | Train Loss: 3.0082 | Val Loss: 3.3351 | LR: 0.000250 | Time: 1168.26s
+Saved best model at epoch 13 → logs/model_best.pt
+Epoch 14 | Train Loss: 2.9993 | Val Loss: 3.3701 | LR: 0.000125 | Time: 1163.10s
+Saved best model at epoch 14 → logs/model_best.pt
+Epoch 15 | Train Loss: 2.9670 | Val Loss: 3.3416 | LR: 0.000125 | Time: 1165.33s
+Saved best model at epoch 15 → logs/model_best.pt
+Epoch 16 | Train Loss: 2.9591 | Val Loss: 3.3659 | LR: 0.000125 | Time: 1168.97s
+Saved best model at epoch 16 → logs/model_best.pt
+Epoch 17 | Train Loss: 2.9552 | Val Loss: 3.3839 | LR: 0.000063 | Time: 1163.99s
+Saved best model at epoch 17 → logs/model_best.pt
+Epoch 18 | Train Loss: 2.9356 | Val Loss: 3.3426 | LR: 0.000063 | Time: 1160.84s
+Saved best model at epoch 18 → logs/model_best.pt
+Epoch 19 | Train Loss: 2.9337 | Val Loss: 3.3766 | LR: 0.000063 | Time: 1169.48s
+Saved best model at epoch 19 → logs/model_best.pt
+Epoch 20 | Train Loss: 2.9280 | Val Loss: 3.3753 | LR: 0.000031 | Time: 1165.96s
+Saved best model at epoch 20 → logs/model_best.pt

@@ -1,0 +1,12 @@
+Experiment Log - 2025-08-10_04-30-56
+--------------------------------------------------
+Epoch 01 | Train Loss: 6.2078 | Val Loss: 2.9861 | LR: 0.000976 | Time: 1115.26s
+Saved best model at epoch 1 → logs/model_best.pt
+Epoch 02 | Train Loss: 3.0662 | Val Loss: 3.4284 | LR: 0.000905 | Time: 1124.73s
+Epoch 03 | Train Loss: 2.9374 | Val Loss: 2.8588 | LR: 0.000794 | Time: 1127.60s
+Saved best model at epoch 3 → logs/model_best.pt
+Epoch 04 | Train Loss: 2.8337 | Val Loss: 3.1812 | LR: 0.000655 | Time: 1132.69s
+Epoch 05 | Train Loss: 2.7598 | Val Loss: 3.0121 | LR: 0.000501 | Time: 1134.88s
+Epoch 06 | Train Loss: 2.7018 | Val Loss: 2.9729 | LR: 0.000346 | Time: 1145.29s
+Epoch 07 | Train Loss: 2.6494 | Val Loss: 3.1003 | LR: 0.000207 | Time: 1127.70s
+Epoch 08 | Train Loss: 2.6116 | Val Loss: 2.9865 | LR: 0.000096 | Time: 1143.63s

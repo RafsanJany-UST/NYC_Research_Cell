@@ -1,0 +1,11 @@
+{
+  "cohort": "A",
+  "n_segments_total": 205945,
+  "n_subjects_total": 50,
+  "n_train_segments": 168807,
+  "n_val_segments": 11223,
+  "n_test_segments": 25915,
+  "n_train_subjects": 40,
+  "n_val_subjects": 4,
+  "n_test_subjects": 6
+}

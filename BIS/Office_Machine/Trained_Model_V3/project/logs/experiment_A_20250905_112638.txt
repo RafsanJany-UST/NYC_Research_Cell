@@ -1,0 +1,6 @@
+A training log
+epoch 001 | train 13.4710 | val 4.1123 | lr 0.000976
+epoch 002 | train 4.0591 | val 4.1556 | lr 0.000905
+epoch 003 | train 3.9366 | val 5.0750 | lr 0.000794
+epoch 004 | train 3.8413 | val 4.0605 | lr 0.000655
+epoch 005 | train 3.7667 | val 5.5373 | lr 0.000501

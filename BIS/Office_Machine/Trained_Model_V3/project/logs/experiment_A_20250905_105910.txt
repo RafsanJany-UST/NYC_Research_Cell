@@ -1,0 +1,23 @@
+A training log
+epoch 001 | train 13.4978 | val 4.0462 | lr 0.000976
+epoch 002 | train 4.1394 | val 4.3442 | lr 0.000905
+epoch 003 | train 3.9627 | val 5.2174 | lr 0.000794
+epoch 004 | train 3.8115 | val 4.5424 | lr 0.000655
+epoch 005 | train 3.7109 | val 3.7360 | lr 0.000501
+epoch 006 | train 3.6388 | val 4.5796 | lr 0.000346
+epoch 007 | train 3.5749 | val 4.4644 | lr 0.000207
+epoch 008 | train 3.5241 | val 4.0816 | lr 0.000096
+epoch 009 | train 3.4861 | val 4.1381 | lr 0.000025
+epoch 010 | train 3.4686 | val 4.1617 | lr 0.001000
+epoch 011 | train 3.6073 | val 4.2241 | lr 0.000994
+epoch 012 | train 3.5726 | val 5.9785 | lr 0.000976
+epoch 013 | train 3.5249 | val 4.4839 | lr 0.000946
+epoch 014 | train 3.4683 | val 4.2075 | lr 0.000905
+epoch 015 | train 3.4223 | val 3.9503 | lr 0.000854
+epoch 016 | train 3.3818 | val 3.6778 | lr 0.000794
+epoch 017 | train 3.3309 | val 4.2774 | lr 0.000727
+epoch 018 | train 3.2824 | val 3.4854 | lr 0.000655
+epoch 019 | train 3.2374 | val 4.8623 | lr 0.000579
+epoch 020 | train 3.1847 | val 4.6005 | lr 0.000501
+epoch 021 | train 3.1435 | val 4.0371 | lr 0.000422
+epoch 022 | train 3.0987 | val 3.9354 | lr 0.000346

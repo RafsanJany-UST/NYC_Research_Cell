@@ -1,0 +1,12 @@
+B training log
+epoch 001 | train 3.8326 | val 2.9991 | lr 0.000976
+epoch 002 | train 2.9829 | val 2.8812 | lr 0.000905
+epoch 003 | train 2.8673 | val 3.1591 | lr 0.000794
+epoch 004 | train 2.8041 | val 3.8574 | lr 0.000655
+epoch 005 | train 2.7586 | val 3.2302 | lr 0.000501
+epoch 006 | train 2.7213 | val 3.1910 | lr 0.000346
+epoch 007 | train 2.6906 | val 3.0186 | lr 0.000207
+epoch 008 | train 2.6640 | val 3.1658 | lr 0.000096
+epoch 009 | train 2.6456 | val 3.2183 | lr 0.000025
+epoch 010 | train 2.6323 | val 3.0963 | lr 0.001000
+epoch 011 | train 2.7405 | val 3.0401 | lr 0.000994

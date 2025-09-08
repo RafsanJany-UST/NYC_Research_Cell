@@ -1,0 +1,2 @@
+Model,Params (M),StateDict (MB),GMACs / window,GFLOPs / window,CPU FP32 mean (ms),CPU FP32 p95 (ms),CPU TorchScript mean (ms),CPU TorchScript p95 (ms),GPU FP32 mean (ms),GPU FP32 p95 (ms),GPU AMP FP16 mean (ms),GPU AMP FP16 p95 (ms),Peak GPU Mem (MB)
+LightUNet_SE_ConvMem (base),0.272,1.08,,,8.33,10.33,5.36,6.4,4.04,5.09,4.97,6.62,11.8

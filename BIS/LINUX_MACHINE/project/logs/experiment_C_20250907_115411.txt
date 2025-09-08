@@ -1,1 +1,12 @@
 C training log
+epoch 001 | train 5.0849 | val 4.5016 | lr 0.000976
+epoch 002 | train 4.3253 | val 4.3199 | lr 0.000905
+epoch 003 | train 4.2267 | val 4.2893 | lr 0.000794
+epoch 004 | train 4.1608 | val 4.3061 | lr 0.000655
+epoch 005 | train 4.1086 | val 4.3250 | lr 0.000501
+epoch 006 | train 4.0682 | val 4.2633 | lr 0.000346
+epoch 007 | train 4.0323 | val 4.2950 | lr 0.000207
+epoch 008 | train 4.0035 | val 4.2511 | lr 0.000096
+epoch 009 | train 3.9824 | val 4.2446 | lr 0.000025
+epoch 010 | train 3.9693 | val 4.2621 | lr 0.001000
+epoch 011 | train 4.0806 | val 4.3280 | lr 0.000994

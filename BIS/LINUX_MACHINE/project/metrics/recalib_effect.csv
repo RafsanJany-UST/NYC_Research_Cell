@@ -1,0 +1,4 @@
+cohort,mode,alpha,beta,CCC_before,CCC_after,MAE_before,MAE_after,Acc10_before,Acc10_after
+A,cv2fold,,,0.849,0.842,4.127,4.138,92.501,92.481
+B,cv2fold,,,0.741,0.73,3.662,3.631,94.962,95.798
+C,cv2fold,,,0.815,0.824,4.879,4.843,88.816,88.928
